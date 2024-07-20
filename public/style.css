@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: blanchedalmond;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+  }
+
+  h2 {
+    color: yellowgreen;
+    text-decoration:underline;
+  }
+
+  .music-player {
+    text-align: center;
+    width: 400px;
+  }
+  
+  .track-info {
+    margin-bottom: 20px;
+  }
+  
+  #track-image {
+    width: 50%;
+    border-radius: 10px;
+  }
+  
+  #track-details {
+    margin-top: 10px;
+  }
+  
+  #track-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  #track-artist {
+    font-size: 18px;
+    color: #56554d;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    margin: 0 10px;
+  }
+  
+  .progress-slider {
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .volume-slider {
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  #progress {
+    width: 80%;
+    margin: 0 10px;
+  }
+  
+  #volume {
+    width: 50%;
+    margin: 0 10px;
+  }
+  
+  #current-time, #duration {
+    font-size: 10px;
+  }
+  

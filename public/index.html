@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> MUSIC PLAYER </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="music-player"> <h2> BEROZGAR MUSIC </h2><br>
+    <div class="track-info">
+      <img id="track-image">
+      <div id="track-details">
+        <p id="track-title">TRACK NAME</p>
+        <p id="track-artist">TRACK ARTIST</p>
+      </div>
+    </div>
+    <div class="controls">
+      <button id="prev">&#9664;&#9664;</button>
+      <button id="play">&#9654;</button>
+      <button id="next">&#9654;&#9654;</button>
+    </div>
+    <div class="progress-slider">
+      <span id="current-time">00:00</span>
+      <input type="range" id="progress" min="0" max="100" value="0">
+      <span id="duration">00:00</span>
+    </div>
+    <div class="volume-slider">
+      <input type="range" id="volume" min="0" max="1" step="0.01" value="1">
+    </div>
+    <audio id="audio"></audio>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
